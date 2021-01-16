@@ -1,11 +1,11 @@
 package dev.beverlydrive.mmo.quests;
 
-public abstract class Quest {
-
+public abstract class Quest
+{
     private String title;
     private String startPoint;
     private String difficulty;
-    private int ID;
+    private int    ID;
 
     public Quest(String title, String startPoint, String difficulty, int ID)
     {
@@ -18,5 +18,5 @@ public abstract class Quest {
     public String getTitle()      { return title;      }
     public String getStartPoint() { return startPoint; }
     public String getDifficulty() { return difficulty; }
-    public int getID()            { return ID;         }
+    public int    getID()         { return ID;         }
 }

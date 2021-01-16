@@ -29,8 +29,8 @@ import dev.beverlydrive.mmo.quests.Quest;
  * ....
  */
 
-public class DragonMother extends Quest {
-
+public class DragonMother extends Quest
+{
     public DragonMother(String title, String startPoint, String difficulty, int ID) {
         super(title, startPoint, difficulty, ID);
     }

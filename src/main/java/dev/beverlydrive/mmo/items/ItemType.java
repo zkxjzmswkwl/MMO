@@ -1,6 +1,7 @@
 package dev.beverlydrive.mmo.items;
 
-public enum ItemType {
+public enum ItemType
+{
     // + Weapons
     SWORD,
     DAGGER,

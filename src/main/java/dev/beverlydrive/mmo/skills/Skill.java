@@ -1,6 +1,7 @@
 package dev.beverlydrive.mmo.skills;
 
-public interface Skill {
+public interface Skill
+{
     public abstract void incExp(int amount);
     public abstract void decExp(int amount);
     public abstract void levelUp();

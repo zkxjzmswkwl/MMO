@@ -1,7 +1,7 @@
 package dev.beverlydrive.mmo.items;
 
-public abstract class Item {
-
+public abstract class Item
+{
     /** TODO:
      * Much further down the line, I'd like to change these to be
      * server-sided, and simply store a class of item ids on the client.
